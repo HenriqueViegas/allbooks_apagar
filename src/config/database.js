@@ -12,6 +12,8 @@ function writeJsonFile(path, data) {
     fs.writeFileSync(path, JSON.stringify(data));
 }
 
+
+
 let userDB = readJsonFile(usuariosPath)
 let testeDB = readJsonFile(testePath)
 
